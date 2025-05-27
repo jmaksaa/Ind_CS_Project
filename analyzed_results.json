@@ -1,0 +1,42 @@
+{
+    "summary_by_prompt_type": {
+        "basic": {
+            "games_played": 25,
+            "solved": 1,
+            "solve_rate": "4.00%",
+            "failed": 24,
+            "aborted_invalid_guess": 0,
+            "average_guesses_on_solve": 5.0
+        },
+        "chain_of_thought": {
+            "games_played": 25,
+            "solved": 12,
+            "solve_rate": "48.00%",
+            "failed": 9,
+            "aborted_invalid_guess": 4,
+            "average_guesses_on_solve": 4.833333333333333
+        },
+        "persona": {
+            "games_played": 25,
+            "solved": 7,
+            "solve_rate": "28.00%",
+            "failed": 15,
+            "aborted_invalid_guess": 3,
+            "average_guesses_on_solve": 4.142857142857143
+        },
+        "few_shot": {
+            "games_played": 25,
+            "solved": 0,
+            "solve_rate": "0.00%",
+            "failed": 22,
+            "aborted_invalid_guess": 3,
+            "average_guesses_on_solve": "N/A"
+        }
+    },
+    "best_performing_prompt": {
+        "prompt_type": "chain_of_thought",
+        "solve_rate": "48.00%",
+        "average_guesses_on_solve": 4.833333333333333,
+        "analysis_based_on_runs": 25
+    }
+}
